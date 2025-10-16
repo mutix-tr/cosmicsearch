@@ -1,0 +1,1 @@
+import './globals.css'; export const metadata = { title: 'Cosmic Search Pro', description: 'Futuristik meta arama motoru', }; export default function RootLayout({ children }) { return ( <html lang="tr"> <body className="bg-black text-white min-h-screen">{children}</body> </html> ); }
